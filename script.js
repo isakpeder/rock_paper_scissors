@@ -61,9 +61,11 @@ const playGame = () => {
     if (humanScore > computerScore) {
         console.log("You win!");
     }
-    else    
-        console.log("The clanker won.");
+    else if (humanScore < computerScore) {  
+        console.log("You lose.");
+    }
+    else 
+        console.log("It ends in a tie.");
 }
-
 
 playGame();
