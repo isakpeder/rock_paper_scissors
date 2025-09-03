@@ -3,4 +3,9 @@ const getComputerChoice = function() {
     return choices[parseInt(Math.random() * 3)];
 }
 
-console.log(getComputerChoice());
+const getHumanChoice = function() {
+    let human_choice = prompt("What is your choice?");
+    return human_choice;
+}
+
+console.log(getHumanChoice());
