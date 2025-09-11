@@ -1,0 +1,27 @@
+.choice {
+    background-color: grey;
+    color: white;
+}
+
+.choice_container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10%;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+#reset_btn {
+    background-color: red;
+    padding-left: 10%; padding-right: 10%;
+}
